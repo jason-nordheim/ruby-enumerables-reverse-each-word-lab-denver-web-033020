@@ -12,7 +12,7 @@ def reverse_letters(word)
     new_word.push(word[i])
     i -= 1
   end
-  result = new_word.join(' ')
+  result = new_word.join('')
   p result
   return result
 end
