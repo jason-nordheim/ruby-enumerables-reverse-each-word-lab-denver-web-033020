@@ -9,7 +9,7 @@ def reverse_letters(word)
   new_word = []
   i = word.length
   while i > 0 do
-    new_word << word[i]
+    new_word.push(word[i])
     i -= 1
   end
   return new_word
