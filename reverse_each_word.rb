@@ -12,5 +12,10 @@ def reverse_each_word(sentence)
   p r_words
 end
 
+
+def reverse_letter(word)
+
+end 
+
 example = "Hello there, and how are you?"
 reverse_each_word(example)
