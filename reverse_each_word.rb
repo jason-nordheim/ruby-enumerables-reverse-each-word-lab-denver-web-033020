@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   r_words = []
   words.each{|w| r_words << reverse_letters(w)}
   r_sentence = r_words.join(' ')
-  p r_sentence
+  return r_sentence
 end
 
 
