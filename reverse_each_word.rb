@@ -7,6 +7,7 @@ def reverse_each_word(sentence)
       new_word << word[i]
       i -= 1
     end
+    return new_word
   end
   p r_words
 end
