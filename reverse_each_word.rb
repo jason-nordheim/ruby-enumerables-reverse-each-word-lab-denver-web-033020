@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
   words = sentence.split(' ')
-  words.each{|w| r_words = reverse_letters(w)}
-  p words
+  r_words = words.each{|w| reverse_letters(w)}
+  p r_words
 end
 
 
