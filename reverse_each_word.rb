@@ -12,6 +12,7 @@ def reverse_letters(word)
     new_word.unshift(word[i])
     i -= 1
   end
+  p new_word
   return new_word
 end
 
