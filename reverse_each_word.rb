@@ -13,7 +13,7 @@ def reverse_letters(word)
     i -= 1
   end
   result = new_word.join(' ')
-  return new_word
+  return result
 end
 
 example = "Hello there, and how are you?"
