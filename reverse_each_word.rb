@@ -6,6 +6,13 @@ def reverse_each_word(sentence)
   return r_sentence
 end
 
+def reverse_each_word(sentence)
+  words = sentence.split(' ')
+  r_words = words.collect{ | x | reverse_letters(x) }
+  r_sentence = r_words.join(' ')
+  return r_sentence
+end
+
 
 def reverse_letters(word)
   new_word = []
