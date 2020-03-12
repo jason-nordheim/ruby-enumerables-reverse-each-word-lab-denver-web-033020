@@ -4,8 +4,8 @@ def reverse_each_word(sentence)
     new_word = []
     i = word.length
     while i > 0 do
-
-      i -= 1 
+      new_word << word[i]
+      i -= 1
     end
   end
   p r_words
