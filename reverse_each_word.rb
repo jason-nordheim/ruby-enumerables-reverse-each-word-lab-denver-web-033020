@@ -18,6 +18,3 @@ def reverse_letters(word)
   p result
   return result
 end
-
-example = "Hello there, and how are you?"
-reverse_each_word(example)
